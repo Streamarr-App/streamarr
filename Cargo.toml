@@ -1,0 +1,18 @@
+[package]
+name = "streamarr"
+description = "Backend server for Streamarr."
+license = "AGPL-3.0"
+repository = "https://github.com/Streamarr-App/streamarr.git"
+homepage = "https://streamarr-app.github.io/"
+documentation = "https://github.com/Streamarr-App/wiki"
+readme = "README.md"
+keywords = ["streamarr", "streaming", "media", "server"]
+categories = ["streaming", "media", "server"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.2.1"
+async-graphql = "4.0.14"
+clap = "4.0.6"
+argonautica = "0.2.0"
